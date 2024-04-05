@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.container {
+    width: 80%;
+    margin: 30px 5px 30px 10px;
+    padding: 160px 180px 530px 180px;
+    background-color: #ddedee;
+    border-radius: 20px;
+    box-shadow: 0,0, 10px rgba(0,0,0,0.1);
+}
+
+.gif-coding {
+    position: relative;
+    bottom: -800px;
+    right: 324px;
+    width: 463px;
+    height: 360px;
+    left: 1020px;
+    top: -250px;
+}
+
+h1 {
+    text-align: center;
+    
+}
+
+h2 {
+    text-align: left;
+    
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 48%;
+    right: 20%;
+    transform: translate(50%, -50%);
+}
+
+.cilindro {
+    position: absolute;
+    bottom: 20px; 
+    left: -50px; 
+    background-color: #ffffff;
+    border-radius: 100px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 500px;
+    overflow: hidden;
+}
+
+.cilindro img {
+    width: 50px;
+    height: 50px; 
+    flex-shrink: 0; /* Impede que os ícones sejam reduzidos */
+}
+
+.cilindro .html + .css {
+    margin-right: 50px; /* Adiciona margem à direita do ícone CSS */
+}
+
+.cilindro .css + .js {
+    margin-right: 150px; /* Adiciona margem à direita do ícone JavaScript */
+}
+
+.cilindro .js + .php {
+    margin-right: 100px; /* Adiciona margem à direita do ícone PHP */
+}
+
+.cilindro .php + .unity {
+    margin-right: 200px; /* Adiciona margem à direita do ícone Unity */
+}
